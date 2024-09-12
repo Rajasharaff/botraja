@@ -1,0 +1,249 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*following code for header title,navigation links*/
+
+.cont-1{
+
+   background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cont-2{
+
+    max-width: 1400px;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    
+
+
+}
+
+.cont-for-header{
+
+ 
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    height: 80px;
+   
+}
+
+.AutoBot{
+
+    flex-wrap: nowrap;
+   
+
+    
+}
+.navi-links{
+
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+
+    
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.navi-links li{
+
+
+    padding: 20px 30px;
+    font-family: inter,poppins,sans-serif,'Courier New', Courier, monospace;
+    font-weight: 600;
+
+}
+.navi-links li:hover{
+
+    background-color: rgb(0, 179, 255);
+    cursor: pointer;
+}
+.navi-links-when-click-navicon{
+
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+
+    
+}
+
+.navi-links-when-click-navicon ul{
+
+  
+   background-color: #19A6B0;  
+   list-style: none;
+   width: 100%;
+  
+}
+.navi-links-when-click-navicon li{
+
+    padding: 20px 20px;
+    text-align: center;
+    
+}
+.navi-links-when-click-navicon ul  a{
+
+    text-decoration: none;
+    color: white;
+    font-family: inter,poppins,sans-serif,'Courier New', Courier, monospace;
+    font-weight: 400;
+    
+    
+
+}
+.navi-links-when-click-navicon ul li:hover{
+
+    background-color: rgb(0, 179, 255);
+    cursor: pointer;
+}
+.closeIcon{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 15px;
+}
+.closeIcon img{
+
+    width: 20px;
+}
+
+.navi-links li a{
+
+    color: #F4F6FF;
+    text-decoration: none;
+}
+.AutoBot-title{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AutoBot-title h1{
+
+    font-family: inter,poppins,sans-serif,'Courier New', Courier, monospace;
+    color: #F3F5FF;
+}
+/*Following code for welcome text and image container*/
+
+.cont-for-welcome{
+
+    display: flex;
+    flex-direction: row;
+}
+.cont-for-welcome-text{
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 200px;
+
+}
+
+.welcome-to-bot-para{
+
+   
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+.welcome-to-bot-para span{
+
+    color: black;
+}
+.welcome-to-bot-para h3{
+
+    font-family: inter,poppins,Arial, Helvetica, sans-serif;
+    color: rgb(245, 239, 239);
+}
+.welcome-to-bot-txt h1{
+
+    font-family: inter,poppins,sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+  
+}
+
+.cont-for-welcome-robo-img{
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont-for-welcome-robo-img img{
+
+    width: 400px;
+    
+
+}
+
+.get-started-buttons button{
+
+    border: none;
+    padding: 20px 40px;
+    border-radius:11px;
+    font-family: inter,'Courier New', Courier, monospace,sans-serif;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 20px;
+}
+.get-started-buttons .getStarted-button button{
+
+    background-color: #3328CE;
+
+
+}
+.get-started-buttons .getDemo-button button{
+
+    border: 2px solid #3328CE;
+    background-color: transparent;
+
+
+}
+
+
+.get-started-buttons{
+
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    width: 100%;
+}
+
+
+.cont-3{
+
+    max-width: 1400px;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: orangered;
+    
+    
+
+
+}

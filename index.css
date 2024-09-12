@@ -1,0 +1,620 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*following code for header title,navigation links*/
+
+.cont-1{
+
+   background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cont-2{
+
+    max-width: 1400px;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    
+
+
+}
+
+.cont-for-header{
+
+ 
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    height: 80px;
+   
+}
+
+.AutoBot{
+
+    flex-wrap: nowrap;
+   
+
+    
+}
+.navi-links{
+
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+
+    
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.navi-links li{
+
+
+    padding: 20px 30px;
+    font-family: inter,poppins,sans-serif,'Courier New', Courier, monospace;
+    font-weight: 600;
+
+}
+.navi-links li:hover{
+
+    background-color: rgb(0, 179, 255);
+    cursor: pointer;
+}
+.navi-links-when-click-navicon{
+
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+
+    
+}
+
+.navi-links-when-click-navicon ul{
+
+  
+   background-color: #19A6B0;  
+   list-style: none;
+   width: 100%;
+  
+}
+.navi-links-when-click-navicon li{
+
+    padding: 20px 20px;
+    text-align: center;
+    
+}
+.navi-links-when-click-navicon ul  a{
+
+    text-decoration: none;
+    color: white;
+    font-family: inter,poppins,sans-serif,'Courier New', Courier, monospace;
+    font-weight: 400;
+    
+    
+
+}
+.navi-links-when-click-navicon ul li:hover{
+
+    background-color: rgb(0, 179, 255);
+    cursor: pointer;
+}
+.closeIcon{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 15px;
+}
+.closeIcon img{
+
+    width: 20px;
+}
+
+.navi-links li a{
+
+    color: #F4F6FF;
+    text-decoration: none;
+}
+.AutoBot-title{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AutoBot-title h1{
+
+    font-family: inter,poppins,sans-serif,'Courier New', Courier, monospace;
+    color: #F3F5FF;
+}
+/*Following code for welcome text and image container*/
+
+.cont-for-welcome{
+
+    display: flex;
+    flex-direction: row;
+}
+.cont-for-welcome-text{
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 200px;
+
+}
+
+.welcome-to-bot-para{
+
+   
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+.welcome-to-bot-para span{
+
+    color: black;
+}
+.welcome-to-bot-para h3{
+
+    font-family: inter,poppins,Arial, Helvetica, sans-serif;
+    color: rgb(245, 239, 239);
+}
+.welcome-to-bot-txt h1{
+
+    font-family: inter,poppins,sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+  
+}
+
+.cont-for-welcome-robo-img{
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont-for-welcome-robo-img img{
+
+    width: 400px;
+    
+
+}
+
+.get-started-button button{
+
+    border: none;
+    padding: 20px 40px;
+    border-radius:11px;
+    background-color: #19A6B0;
+    font-family: inter,'Courier New', Courier, monospace,sans-serif;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 20px;
+}
+.get-started-button{
+
+    margin: 20px;
+}
+
+/*Following code for manually messaging */
+
+
+.cont-for-manually-messaging-video-txt{
+
+    padding-bottom: 80px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+
+}
+
+
+.cont-for-manualmessaging-video{
+
+    
+    display: flex;
+    border-radius: 20px;
+    margin-top: 50px;
+    flex-direction: row;
+}
+
+
+.when-answering-manually-title{
+
+
+    font-family: inter,poppins,'Courier New', Courier, monospace,Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-top: 30px;
+    margin-left: 20px;
+    color: rgb(224, 220, 220)
+    
+    
+}
+
+.manually-answering-paras{
+
+    
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 2px solid white;
+    
+}
+.manuallymessaging-video{
+
+    
+    flex: 1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #444559;
+    
+}
+.manuallymessaging-video video{
+
+
+    left: 90px;
+    top: 50px;
+    width: 100%;
+    height: auto;
+  
+}
+.when-answering-manually-para1 h3{
+
+    font-family: sans-serif;
+    padding-left: 40px;
+    margin-top: 50px;
+    color: #d2d2d8;
+}
+.when-answering-manually-para2 h3{
+
+    font-family: sans-serif;
+    padding-left: 40px;
+    margin-top: 50px;
+    color: #d3cfcf;
+}
+
+.when-answering-manually-para1 h3 span{
+
+    
+    color: rgb(10, 10, 10);
+}
+
+/*following code for why dont yu use bot section*/
+
+.cont-for-why-dont-use-bot{
+
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+
+    
+    
+}
+.cont-for-manual-messaging-title{
+
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight: 900;
+}
+.cont-for-manual-messaging-title h1{
+
+
+    font-family: inter,poppins,sans-serif,'Courier New', Courier, monospace;
+    
+
+
+}
+.cont-for-why-dont-use-bot-txt{
+
+    width: 800px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.cont-for-manual-messaging-para{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight: 900;
+    color: #6b6969;
+    padding-bottom: 40px;
+    
+}
+.cont-for-manual-messaging-para h3{
+
+
+    font-family: inter,poppins,sans-serif,'Courier New', Courier, monospace;
+    
+
+
+}
+/*Following code for what does bot do */
+
+.cont-for-what-bot-do{
+
+min-height: 100vh;
+background:linear-gradient(180deg,#444559,#19A6B0);
+display: flex;
+flex-direction: column;
+
+
+}
+.cont-for-what-bot-do-title{
+
+    font-size: 20px;
+    font-family: inter;
+    font-weight: 1200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(248, 245, 245);
+}
+.what-bot-do-list{
+
+    display: flex;
+    max-width: 1400px;
+    width: 80%;
+    flex-direction: row;
+   
+}
+.white-box-for-what-bot-do{
+
+
+    font-family: poppins;
+    border-radius: 25px;
+    font-size: 15px;
+    flex: 1;
+    color: whitesmoke;
+    padding: 20px 20px;
+}
+.white-box-for-what-bot-do-image{
+
+    padding: 50px 0px;
+}
+.cont-for-what-bot-do-list{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+/*following code for fotter...*/
+
+.cont-for-fotter-bg{
+
+
+    background-color: #0f0f0f;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cont-for-fotter-bg2{
+
+
+max-width: 1400px;
+width: 100%;
+
+}
+
+.cont-for-fotter{
+
+   display: flex;
+   flex-direction: row;
+ 
+
+
+}
+.cont-for-company-info{
+
+    flex: 1;
+    font-family: Inter,poppins,'Courier New', Courier, monospace,sans-serif;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    min-width: 100px;
+}
+.cont-for-fotter-links{
+
+    flex: 1;
+    font-family: Inter,poppins,'Courier New', Courier, monospace,sans-serif;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    min-width: 100px;
+}
+.cont-for-fotter-contact{
+
+    flex: 1;
+    font-family: Inter,poppins,'Courier New', Courier, monospace,sans-serif;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    min-width: 100px;
+}
+.cont-for-fotter-follow-us{
+
+    flex: 1;
+    padding-top: 40px;
+    color: black;
+    font-family: Inter,poppins,'Courier New', Courier, monospace,sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 100px;
+}
+.cont-for-company-name{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-for-company-name h1{
+
+
+    font-family: inter,poppins,'Courier New', Courier, monospace,sans-serif;
+    color: black;
+    font-size: 40px;
+  
+
+}
+.cont-for-compahy-para h3{
+
+    color: rgb(194, 193, 193);
+    font-family: Inter,poppins,'Courier New', Courier, monospace,sans-serif;
+    
+}
+.cont-for-compahy-para{
+
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+
+.cont-for-fotter-link-list{
+
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.cont-for-fotter-link-list li{
+
+    padding: 10px 0px;
+    color: white;
+}
+.cont-for-fotter-contact-details{
+
+    list-style: none;
+    padding-top: 20px;
+}
+.cont-for-fotter-contact-details li{
+
+    padding: 10px 0px;
+    font-weight: 500;
+    color: wheat;
+    
+}
+
+.cont-for-copy-right{
+
+    font-family: Inter,poppins,'Courier New', Courier, monospace,sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cont-for-fotter-contact-logo{
+
+    list-style: none;
+    display: flex;
+    padding-top: 50px;
+}
+.cont-for-fotter-contact-logo li img{
+
+    height: 40px;
+    
+}
+.cont-for-fotter-contact-logo li{
+
+    padding: 10px 10px;
+}
+
+/*following code for responsive*/
+
+
+@media (max-width:1200px){
+
+    .cont-for-welcome{
+
+        display: flex;
+        min-height: 700px;
+        flex-direction: column;
+    }
+
+    
+
+
+    .manuallymessaging-video{
+
+    display: none;
+
+    }
+   
+
+    .cont-for-fotter{
+
+        display: flex;
+        flex-direction: column;
+      
+     }
+
+     .navi-links{
+
+        display: none;
+     }
+
+     .navbar{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     .what-bot-do-list{
+
+        display: flex;
+        max-width: 1400px;
+        width: 80%;
+        flex-direction: column;
+       
+    }
+}

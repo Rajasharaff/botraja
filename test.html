@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Running Text Animation</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .cont-for-scroll {
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .cont-for-scrolling {
+            display: inline-block;
+            width: 100%;
+            animation: marquee 10s linear infinite; 
+        }
+
+        img{
+
+          width: 200px;
+        }
+        .cont{
+
+          width: 100%;
+          display: flex;
+        }
+        li{
+
+          flex: 1;
+        }
+      .cont-for-scroll:hover .cont-for-scrolling{
+
+        
+        animation-play-state: paused;
+
+
+      }
+      
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(0%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cont-for-scroll">
+        <div class="cont-for-scrolling">
+          <ul class="cont">
+            <li><img src="telegram.png" alt="telegram"></li>
+            <li><img src="instagram-img.png" alt="telegram"></li>
+            <li><img src="discord-img.png" alt="telegram"></li>
+            <li><img src="facebook-img.png" alt="telegram"></li>
+          </ul>
+        </div>
+
+        <div class="cont-for-scrolling">
+          <ul class="cont">
+            <li><img src="telegram.png" alt="telegram"></li>
+            <li><img src="instagram-img.png" alt="telegram"></li>
+            <li><img src="discord-img.png" alt="telegram"></li>
+            <li><img src="facebook-img.png" alt="telegram"></li>
+          </ul>
+        </div>
+    </div>
+</body>
+</html>
